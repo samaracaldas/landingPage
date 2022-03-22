@@ -28,8 +28,11 @@ body{
     overflow-x: hidden;
     background-repeat: no-repeat;
     min-height: 100vh;
+    
    
 }
+
+/* Pagina inicial */
 
 .cabecalho {
     display: flex;
@@ -263,7 +266,7 @@ body{
 
 }
 
-
+/* ---------------------- Pagina de login ---------------------------- */
  
 main.container{
      background: white;
@@ -275,8 +278,6 @@ main.container{
     
 }
 
-
-
 main h2 {
     font-weight: 600;
     margin-bottom: 2rem;
@@ -284,10 +285,7 @@ main h2 {
 }
 
 
-
-
-
-form{
+.loginform{
     display: flex;
     flex-direction:column;
 
@@ -357,13 +355,6 @@ form input[type="submit"]{
 }
 
 
-form input[type="submit"]:hover {
-    letter-spacing: 0.5px;
-    background:  linear-gradient(to right, #6fd2e6 16.62%, #285ee9 85.61%); ;
-}
-
-
-
 .footer{
     display: flex;
     flex-direction: column;
@@ -405,6 +396,15 @@ form input[type="submit"]:hover {
 }
 
 
+
+/* ------------------------------ Pagina de Cadastro -------------------------------- */
+
+body.bodycadastro {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .cadastre-se h3{
     padding-top: 25px;
     color: white;
@@ -413,6 +413,8 @@ form input[type="submit"]:hover {
     cursor: pointer;
     font-family: 'Barlow', sans-serif;
     font-weight: 200;
+    justify-content: center;
+    justify-items: center;
 }
 
 .cadastre-se h3 a{
@@ -422,6 +424,104 @@ form input[type="submit"]:hover {
 
 .cadastre-se h3 :hover{
    color: #5ecbe0;
+
+}
+
+main.containerCadastro{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 3rem;
+}
+
+main.containerCadastro h2 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+main.social-media {
+    display: flex;
+    align-content: center;
+}
+
+main.social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+    width: 36px;
+    margin-left: 1rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main .alternative {
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+main .alternative span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+main form .cadastroform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 10px ;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-weight: 400;
+
+}
+
+main form input {
+    background: white;
+    
+    margin-top: 1rem;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid #153DA5 ;
+    border-radius: 8px;
+}
+
+main form input[type="button"] {
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #0e3699;
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    justify-content:center;
+}
+
+section.images {
+    display: flex;
+    align-items: flex-end;
+}
+
 
 @media (max-width: 1000px) {
 
