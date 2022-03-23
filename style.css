@@ -32,7 +32,7 @@ body{
    
 }
 
-/* Pagina inicial */
+/* ------------------------------- Barra de navegação ---------------------------- */
 
 .cabecalho {
     display: flex;
@@ -41,7 +41,6 @@ body{
     justify-content: space-around;
     padding: 24px;
 }
-
 
 .cabecalhoImagem {
     text-align: left;
@@ -56,16 +55,12 @@ body{
     
 }
 
-
 .cabecalhoMenuItem  {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     font-size: 18px;
    color: white;
 }
-
-
-
 
 .cabecalhobotao {
     background: #5ecbe0; 
@@ -80,6 +75,8 @@ body{
     color: #ffffffdc;
 
 }
+
+/* ----------------------------------- Pagina inicial --------------------------------- */
 
 
 .conteudo {
@@ -98,7 +95,6 @@ body{
     padding-left: 40px;
 
 }
-
 
 .conteudoPrincipalEscrito {
     display: flex;
@@ -133,13 +129,11 @@ body{
     text-align: center;
 }
 
-
 .conteudoPrincipalImagem {
     height: 400px;
     padding-top: 40px;
 
 }
-
 
 .conteudoPrincipalMiniaturaEscrito {
     display: flex;
@@ -168,6 +162,7 @@ body{
     gap: 32px;
 
 }
+
 .miniatura {
   margin-right: 15px;
   margin-bottom: 15px;
@@ -420,6 +415,7 @@ body.bodycadastro {
 .cadastre-se h3 a{
     text-decoration: none;
     color: white;
+    text-align: left;
 }
 
 .cadastre-se h3 :hover{
@@ -435,13 +431,22 @@ main.containerCadastro{
     justify-content: center;
     padding-top: 20px;
     margin-bottom: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    max-width: 350px;
+    min-height: 40vh;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 main.containerCadastro h2 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 600;
     margin-bottom: 2rem;
-    position: relative;
+    position: relative
 }
 
 main.social-media {
@@ -464,13 +469,13 @@ main .social-media a:first-child img {
 
 main .alternative {
     margin-top: 2rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: -20px;
 }
 
 main .alternative span {
     font-size: 1rem;
     font-weight: 400;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Barlow', sans-serif;
 }
 
@@ -478,43 +483,51 @@ main form .cadastroform {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;
-    margin-top: 10px ;
+    margin-bottom: 30px;
+    margin-top: 4px ;
+    color: #000000dc;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
 main form label {
     display: flex;
     flex-direction: column;
+    float: left;
+    width: 100%;
 }
 
 main form label span {
     font-size: 1.1rem;
     margin-top: 2rem;
     font-family: 'Barlow', sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 400;
 
 }
 
 main form input {
     background: white;
-    
+    width: 100%;
     margin-top: 1rem;
     outline: none;
     font-size: 1rem;
     border: 1px solid #153DA5 ;
     border-radius: 8px;
+    margin-top: 9px;
 }
 
 main form input[type="button"] {
     margin-top: 4rem;
     border: none;
     border-radius: 32px;
-    background: #0e3699;
+    background: linear-gradient(to right, #051c55 ,#103db1);
     color: white;
     font-size: 1.1rem;
     text-align: center;
     justify-content:center;
+    margin-top: 30px;
+    
 }
 
 section.images {
