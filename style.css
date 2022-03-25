@@ -55,20 +55,26 @@ body{
     
 }
 
+.cabecalhoMenu :hover {
+    color: #61b3ff;
+}
+
 .cabecalhoMenuItem  {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     font-size: 18px;
-   color: white;
+    color: white;
 }
 
+
+
 .cabecalhobotao {
-    background: #5ecbe0; 
-    width: 100px;
-    height: 60px;
+    background: linear-gradient(to right, #2863f8 ,#4d7ffc); 
+    width: 150px;
+    height: 50px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 35px;
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -93,6 +99,7 @@ body{
     align-items: center;
     justify-content: space-around;
     padding-left: 40px;
+    padding-right: 40px;
 
 }
 
@@ -116,7 +123,7 @@ body{
 }
 
 .conteudoPrincipalEscritoBotao {
-    background-color: rgb(168, 214, 255);
+    background:#285ee9;
     width: 180px;
     height: 60px;
     border: none;
@@ -125,9 +132,11 @@ body{
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
     font-size: 24px;
-    color: #000000dc;
+    color: white;
     text-align: center;
 }
+
+
 
 .conteudoPrincipalImagem {
     height: 400px;
@@ -527,13 +536,50 @@ main form input[type="button"] {
     text-align: center;
     justify-content:center;
     margin-top: 30px;
-    
 }
 
 section.images {
     display: flex;
     align-items: flex-end;
 }
+
+
+/* ------------------------------ Pagina Nossos Cursos -------------------------------- */
+
+
+.conteudoCursos {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #70D8EB ;
+    padding-top: 48px;
+    
+}
+
+.conteudoPrincipalCursos{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.conteudoPrincipalCursosEscritoTitulo{
+    margin-bottom: 50px;
+}
+
+.conteudoPrincipalCursosEscritoTexto{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+
 
 
 @media (max-width: 1000px) {
