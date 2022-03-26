@@ -68,6 +68,8 @@ body{
 
 
 
+
+
 .cabecalhobotao {
     background: linear-gradient(to right, #2863f8 ,#4d7ffc); 
     width: 150px;
@@ -562,9 +564,14 @@ section.images {
     justify-content: space-around;
     padding-left: 40px;
     padding-right: 40px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200; 
 }
 
 .conteudoPrincipalCursosEscritoTitulo{
+    font-weight: 400;
+    font-size: 64px;
+    font-family: 'Lalezar', cursive;
     margin-bottom: 50px;
 }
 
@@ -579,7 +586,56 @@ section.images {
     padding-bottom: 80px;
 }
 
+/* ------------------------------ Pagina Sobre Nós -------------------------------- */
 
+.conteudoSobreNos {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #70D8EB ;
+    padding-top: 48px;
+    
+}
+
+.conteudoSobreNos{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.conteudoPrincipalSobreNosEscritoTitulo{
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 64px;
+    font-family: 'Lalezar', cursive;
+}
+
+.conteudoPrincipalSobreNosEscritoTexto{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200; 
+}
+
+
+footer .rodape{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+footer .
 
 
 @media (max-width: 1000px) {
