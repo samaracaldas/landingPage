@@ -689,6 +689,9 @@ section.images {
 }
 
 
+/* ------------------------------ Rodapé -------------------------------- */
+
+
 footer {
     background-color: #153DA5;
     color: white;
@@ -730,7 +733,6 @@ footer .rodapeRedes {
 
 footer .rodapeRedesImagem {
     margin-left: 40px;
-   
     width: 35px;
 }
 
