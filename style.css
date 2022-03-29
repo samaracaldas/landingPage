@@ -28,9 +28,16 @@ body{
     overflow-x: hidden;
     background-repeat: no-repeat;
     min-height: 100vh;
-    
+    padding: 0;
+    margin: 0;
+
    
 }
+
+html, body {
+    min-height: 100%;
+}
+
 
 /* ------------------------------- Barra de navegação ---------------------------- */
 
@@ -682,16 +689,50 @@ section.images {
 }
 
 
-footer .rodape{
+footer {
+    background-color: #153DA5;
     color: white;
+    font-size: 20px;
     display: flex;
-    flex-direction: row;
-    text-align: left;
-    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
+    position: absolute;
+    width: 100%;
 }
 
+footer .rodapeImagem{
+    text-align: center;
+    width: 350px;
+}
+
+footer .rodapeconteudo {
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    flex-direction: row;
+}
+
+footer .rodapeconteudo2 {
+    font-size: 15px;
+    padding-left: 40px;
+    
+}
+
+footer .rodapeRedes {
+    flex-direction: row;
+    align-content: flex-start;
+    padding-bottom: 50px;
+
+}
+
+footer .rodapeRedesImagem {
+    margin-left: 40px;
+   
+    width: 35px;
+}
 
 
 
