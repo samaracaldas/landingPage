@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Lalezar&display=swap');
+
+.footer{
+    padding-top: 20px;
+    display: flex;
+    display: block;
+    background-color: #153DA5;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    
+}
+.informacoes{
+    display: flex;
+    align-items:flex-end;
+}
+
+.rodapeconteudo{
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    flex-direction: row;
+}
+
+.rodapeconteudo2{
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.redessociais{
+    display: flex;
+    padding-top: -10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 25px;
+    
+}
+
