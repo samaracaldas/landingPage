@@ -87,6 +87,8 @@ form input[type="submit"]{
 }
 
 
+
+
 .footer{
    display: flex;
    flex-direction: column;
@@ -127,9 +129,11 @@ form input[type="submit"]{
    background: linear-gradient(to right, #fa6052, #DB4437);
 }
 
+.cadastre-se{
+   padding-top: 25px;
+}
 
 .cadastre-se h3{
-    padding-top: 25px;
     color: white;
     text-align: center;
     font-size: 15px;
@@ -138,11 +142,28 @@ form input[type="submit"]{
     font-weight: 200;
 }
 
+.esqueciAsenha {
+   font-family: 'Barlow', sans-serif;
+   color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
 .cadastre-se h3 a{
     text-decoration: none;
     color: white;
 }
 
 .cadastre-se h3 :hover{
+   color: #5ecbe0;
+}
+
+.esqueciAsenha h3 a{
+   color: white;
+   text-decoration: none;
+}
+
+.esqueciAsenha h3 :hover{
    color: #5ecbe0;
 }

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Lalezar&display=swap');
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+main .recuperacaoform{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    max-width: 350px;
+    min-height: 40vh;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.recuperacaoform h2{
+    padding-top: 25px;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200;
+    justify-content: center;
+    justify-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 100%;
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+
+}
+
+main form input {
+    background: white;
+    width: 100%;
+    margin-top: 1rem;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid #153DA5 ;
+    border-radius: 8px;
+    margin-top: 9px;
+}
+
+main form input[type="button"] {
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: linear-gradient(to right, #051c55 ,#103db1);
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    justify-content:center;
+    margin-top: 30px;
+}

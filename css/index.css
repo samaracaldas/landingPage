@@ -49,6 +49,12 @@
     font-size: 24px;
     color: white;
     text-align: center;
+    transition: 0.1s all;
+}
+
+.conteudoPrincipalEscritoBotao :active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 2px  rgba(0, 0, 0, 0.24);
 }
 
 

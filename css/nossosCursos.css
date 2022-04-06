@@ -31,8 +31,6 @@
     margin-top: 80px;
 }
 
-
-
 .conteudoPrincipalCursosEscritoTexto{
     color: white;
     display: flex;
@@ -69,7 +67,15 @@
     font-family: 'Barlow', sans-serif;
     color: white;
     justify-content: center;
+    margin-left: 20px;
+    float: left;
+    
 }
+
+.conteudoPrincipalCursoBotao :hover {
+    background: linear-gradient(to right,  #021035, #2956c5 );
+    transition: ease-in-out; 
+}    
 
 .conteudoPrincipalCursosEscritoSubTexto{
     color: white;

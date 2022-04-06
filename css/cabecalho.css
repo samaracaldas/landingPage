@@ -45,3 +45,10 @@
     color: #ffffffdc;
 
 }
+
+
+.cabecalhobotao :hover {
+    transform: scale(1.1);
+    transition: linear 0.5s;
+    color: white;
+}
