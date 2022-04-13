@@ -24,7 +24,7 @@ html{
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #48CAE4 16.62%, #153DA5 85.61%);
+    background: linear-gradient(68.15deg, #48cae4 16.62%, #153DA5 85.61%);
     overflow-x: hidden;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -45,25 +45,7 @@ html, body {
 
 
 
-@media (max-width: 1000px) {
 
-
-    .miniatura {
-
-        max-width: 100%;
-        background-size: auto 100%;
-    
-    }
-
-    .blackbox {
-        opacity: 0.9;
-        width: 300px;
-        height: 200px;
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-
-}
 
 
 
